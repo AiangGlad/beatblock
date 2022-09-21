@@ -78,6 +78,32 @@ header{
 
 
 
+table{
+    margin:30px auto;
+    border-collapse:collapse;
+    font-size:15px;
+    line-height:35px;
+    color:white;
+}
+
+tr, td{
+    border:2px;
+    border-style:solid;
+    padding:7px;
+    border-color:white;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: darkslategray;
+}
+
+
+
+thead{
+    background-color:rgb(16, 16, 16); ;
+}
+
 
 
 
@@ -123,7 +149,6 @@ li{
 
 .Creeps{
     width:100%;
-    position:relative;
     float:right;
     border-radius:15px;
     margin-bottom:20px;
@@ -139,6 +164,10 @@ li{
     border-color:white;
     border-radius:30px;
     transition: ease-in 0.2s; 
+}
+
+audio{
+    margin-left:4px;
 }
 
 .sample_list:hover{
@@ -176,38 +205,15 @@ li{
 
 
 
-table{
-    margin:20px auto;
-    border-collapse:collapse;
-    font-size:25px;
-    color:white;
-}
 
-tr, td{
-    border:2px;
-    border-style:solid;
-    padding:7px;
-    border-color:white;
-}
-
-
-tbody tr:nth-child(odd) {
-    background-color: darkslategray;
-}
-
-
-
-thead{
-    background-color:rgb(16, 16, 16); ;
-}
 
 .prosess{
     color:rgb(218, 213, 213);
-    width: 70%;
+    width: 80%;
     margin: 0px auto;
     padding: 20px 0px 20px;
-    font-size:22px;
-    line-height: 42px;
+    font-size:20px;
+    line-height: 40px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -215,8 +221,6 @@ thead{
     width:100%;
     margin: 0px auto;
 }
-
-
 
 
 
@@ -239,18 +243,21 @@ thead{
         background-color:darkslategray;
     }
 
-    
+    audio{
+        margin-left:0px;
+    }
+
     .Creeps{
         width:50%;
         position:relative;
+        bottom:168px;
         float:right;
         border-radius:15px;
-        margin-bottom:20px;
-        margin-top:15px;
+        margin-left:5px;
     }
     
     .sample_list{
-        width:75%;
+        width:85%;
         padding:20px 30px 20px;
         margin:5px auto;
         color:rgb(218, 213, 213);
@@ -260,6 +267,21 @@ thead{
         transition: ease-in 0.2s; 
     }
     
+    .audbox{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:19px;
+        line-height:40px;
+    }
+    
+    li{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+        line-height:30px;
+    
+    }
+
+
+
 }
 
 
@@ -280,20 +302,6 @@ thead{
         padding:0px 30px;
     }
     
-
-    .navknapp{
-        padding: 7px 18px;
-        border-radius:25px;
-        color:white;
-        transition:ease-in 0.3s;
-        background-color:darkslategray;
-    }
-
-
-
-
-
-
 
 
     .audbox{
@@ -337,6 +345,41 @@ thead{
     
 
 
+
+
+
+    table{
+        margin:20px auto;
+        border-collapse:collapse;
+        font-size:25px;
+        color:white;
+        line-height:35px;
+    }
+    
+    tr, td{
+        border:2px;
+        border-style:solid;
+        padding:7px;
+        border-color:white;
+    }
+    
+    
+    tbody tr:nth-child(odd) {
+        background-color: darkslategray;
+    }
+    
+    
+    
+    thead{
+        background-color:rgb(16, 16, 16); ;
+    }
+
+    
+    .prosess{
+        width: 70%;
+        font-size:22px;
+        line-height: 42px;
+    }
 
 }
 
