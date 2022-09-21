@@ -88,6 +88,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     font-size:18px;
     color:rgb(218, 213, 213);
+    line-height:35px;
 
 }
 
@@ -121,15 +122,16 @@ li{
 }
 
 .Creeps{
-    width:50%;
+    width:100%;
     position:relative;
-    bottom:156px;
     float:right;
     border-radius:15px;
+    margin-bottom:20px;
+    margin-top:15px;
 }
 
 .sample_list{
-    width:45%;
+    width:75%;
     padding:20px 30px 20px;
     margin:5px auto;
     color:rgb(218, 213, 213);
@@ -236,6 +238,27 @@ thead{
         transition:ease-in 0.3s;
         background-color:darkslategray;
     }
+
+    
+    .Creeps{
+        width:50%;
+        position:relative;
+        float:right;
+        border-radius:15px;
+        margin-bottom:20px;
+        margin-top:15px;
+    }
+    
+    .sample_list{
+        width:75%;
+        padding:20px 30px 20px;
+        margin:5px auto;
+        color:rgb(218, 213, 213);
+        border-style:solid;
+        border-color:white;
+        border-radius:30px;
+        transition: ease-in 0.2s; 
+    }
     
 }
 
@@ -265,6 +288,54 @@ thead{
         transition:ease-in 0.3s;
         background-color:darkslategray;
     }
+
+
+
+
+
+
+
+
+    .audbox{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+        line-height:40px;
+    }
+    
+    li{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+        line-height:30px;
+    
+    }
+    
+    .Creeps{
+        width:50%;
+        position:relative;
+        bottom:156px;
+        float:right;
+        border-radius:15px;
+        margin:0px;
+    }
+    
+    .sample_list{
+        width:45%;
+        padding:20px 30px 20px;
+        margin:5px auto;
+        color:rgb(218, 213, 213);
+        border-style:solid;
+        border-color:white;
+        border-radius:30px;
+        transition: ease-in 0.2s; 
+    }
+    
+    .sample_list:hover{
+        
+        background-color:darkslategray;
+        color:black;
+    }
+    
+
 
 
 }
