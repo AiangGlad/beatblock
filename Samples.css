@@ -166,9 +166,6 @@ li{
     transition: ease-in 0.2s; 
 }
 
-audio{
-    margin-left:4px;
-}
 
 .sample_list:hover{
     
@@ -223,7 +220,9 @@ audio{
 }
 
 
-
+.lyd{
+    width:100%;
+}
 
 
 
@@ -243,9 +242,7 @@ audio{
         background-color:darkslategray;
     }
 
-    audio{
-        margin-left:0px;
-    }
+
 
     .Creeps{
         width:50%;
@@ -280,7 +277,10 @@ audio{
     
     }
 
-
+    .lyd{
+    width:45%;
+    }
+    
 
 }
 
